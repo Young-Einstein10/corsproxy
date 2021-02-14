@@ -1,0 +1,16 @@
+{
+  "name": "proxy_middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apicache": "^1.5.3",
+    "cors-anywhere": "^0.4.3",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2"
+  }
+}
